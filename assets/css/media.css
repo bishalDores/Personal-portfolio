@@ -1,0 +1,28 @@
+@media screen and (max-width: 425px) {
+    .contact-info {
+        background: black;
+        height: auto !important;
+        width: 100% !important;
+        padding: 50% 4%;
+        
+    }
+    .footer-components{
+        display: block;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .contact-info {
+        height: 100%;
+        width: 100%;             
+    }
+    .contact-info h2,h4{
+        font-size: 1rem !important;
+    }
+    .col-sm-2{
+       max-width:100% !important;
+    }
+    
+} 
